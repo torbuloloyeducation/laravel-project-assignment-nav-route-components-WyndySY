@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html>
 <head>
@@ -10,7 +11,10 @@
         background-color: grey;
     }
 </style>
+</head>
 <body>
-{{ $slot }}
+    <x-navbar />
+    {{ $slot }}
 </body>
 </html>
+
